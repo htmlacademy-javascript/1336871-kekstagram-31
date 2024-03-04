@@ -1,4 +1,4 @@
-const checkLength = (string, length) => string.length <= length;
+const checkLength = (string = '', length = 1) => string.length <= length;
 // тест
 // console.log(checkLength('проверяемая строка', 20)); // true
 // console.log(checkLength('проверяемая строка', 18)); // true
